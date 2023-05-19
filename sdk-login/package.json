@@ -1,0 +1,24 @@
+{
+  "name": "sdk-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
